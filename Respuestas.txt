@@ -1,0 +1,8 @@
+1-> Para una mejor escabilidad aplicaria que la respuesta del micro fuera REST con respuesta JSON, para que tuviera
+integracion con cualquier tipo de tecnologia y no se necesitaran distintos micros para difereentes fronts.
+
+
+2-> Los problemas que encuentro son, que entre los minutos de refresco que hay, podria surgir cambios en los vehiculos
+ de tipo de disponibilidad, y estos no serian reflejados hasta la siguiente carga.
+La solucion que se me ocurre para este problema, seria uso de los observer y observables de rxjava, no haria falta tener
+un schedule y seria mas facil controlar cuanlquier tipo de cambio.
